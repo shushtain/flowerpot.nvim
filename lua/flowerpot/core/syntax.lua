@@ -100,7 +100,7 @@ function M.setup(palette)
 		["@string"] = { fg = palette.yellow.v70 },
 		["@string.documentation"] = { link = "@string" },
 		["@string.regexp"] = { link = "@string.special" },
-		["@string.escape"] = { fg = palette.yellow.v50 },
+		["@string.escape"] = { fg = palette.green.v50 },
 		["@string.special"] = { fg = palette.yellow.v80 },
 		["@string.special.symbol"] = { link = "@string.special" },
 		["@string.special.path"] = { link = "@string.special" },

@@ -84,7 +84,7 @@ function M.setup(palette)
 		DiagnosticUnnecessary = { fg = palette.gray.v40, italic = true },
 
 		["@variable"] = { fg = palette.green.v80 },
-		["@variable.builtin"] = { link = "@variable", bold = true },
+		["@variable.builtin"] = { fg = palette.green.v80, bold = true },
 		["@variable.parameter"] = { link = "@variable" },
 		["@variable.parameter.builtin"] = { link = "@variable.builtin" },
 		["@variable.member"] = { link = "@variable" },
@@ -104,7 +104,7 @@ function M.setup(palette)
 		["@string.special"] = { fg = palette.yellow.v80 },
 		["@string.special.symbol"] = { link = "@string.special" },
 		["@string.special.path"] = { link = "@string.special" },
-		["@string.special.url"] = { link = "@string.special", underline = true },
+		["@string.special.url"] = { fg = palette.green.v80, underline = true },
 
 		["@character"] = { link = "@string" },
 		["@character.special"] = { link = "@string.special" },

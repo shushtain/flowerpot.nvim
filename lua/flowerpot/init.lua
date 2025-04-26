@@ -13,6 +13,7 @@ local core = {
 local plugins = {
 	require("flowerpot.plugins.telescope"),
 	require("flowerpot.plugins.gitsigns"),
+	require("flowerpot.plugins.which-key"),
 }
 
 function M.colorscheme(variant)

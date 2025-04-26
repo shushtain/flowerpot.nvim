@@ -91,7 +91,7 @@ function M.setup(palette)
 
 		--[[ FLOATING WINDOWS ]]
 		-- general style of floating windows
-		NormalFloat = { fg = palette.gray.v80, bg = palette.gray.v10 },
+		NormalFloat = { fg = palette.gray.v80, bg = palette.gray.v20 },
 		FloatBorder = { fg = palette.gray.v40 },
 		-- these are displayed cutting the border
 		FloatTitle = { fg = palette.gray.v60, bold = true },

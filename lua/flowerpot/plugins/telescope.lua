@@ -5,6 +5,7 @@ function M.setup(palette)
 		TelescopeBorder = { link = "FloatBorder" },
 		TelescopeTitle = { link = "FloatTitle" },
 		TelescopeSelection = { link = "CursorLine" },
+		TelescopePromptCounter = { fg = palette.gray.v40 },
 	}
 
 	for key, value in pairs(groups) do
